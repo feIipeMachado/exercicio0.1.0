@@ -16,6 +16,7 @@ function farmacia(valorCompra, convenio, cartao) {
 
 compra1 = farmacia(300, true, true)
 compra2 = farmacia(300, true, false)
-
+compra3 = farmacia(300, false, false)
 console.log(compra1)
 console.log(compra2)
+console.log(compra3)
